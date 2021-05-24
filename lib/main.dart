@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second/bottom_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -109,11 +110,12 @@ class _MyHomePageState extends State<MyHomePage>
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Color(0xFFEF7532),
         onPressed: () {},
         child: Icon(Icons.fastfood),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomBar(),
+      bottomNavigationBar: BottoBar(),
     );
   }
 }
